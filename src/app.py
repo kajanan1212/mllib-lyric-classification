@@ -5,7 +5,7 @@ from h2o_wave import app, data, main, Q, ui
 from pyspark.ml.tuning import CrossValidatorModel
 from src.lyrics.services.pipelines.lr_pipeline import LogisticRegressionPipeline
 
-DATASET_PATH = os.path.abspath("Merged_dataset.csv")
+DATASET_PATH = os.path.abspath("data/merged-dataset.csv")
 
 MODEL_DIR_PATH = os.path.abspath("model/")
 
